@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.container{
+			height: 1000px;
+			background-color: red;
+		}
+	/* 	.container{
+		width: 1900px;
+	} */
+	.container{
+		width: 100%;
+	}
+	@media(min-width: 768px){
+		/*这里的代码只有当条件满足才执行*/
+		.container{
+			width: 750px;
+		}
+		
+	}
+	@media(min-width: 992px){
+		/*这里的代码只有当条件满足才执行*/
+		.container{
+			width: 970px;
+		}
+		
+	}
+	@media(min-width: 1200){
+		/*这里的代码只有当条件满足才执行*/
+		.container{
+			width: 1170px;
+		}	
+	}
+
+	
+ 	</style>
+</head>
+<body>
+	<div class="container"></div>
+</body>
+</html>
